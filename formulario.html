@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projet</title>
-    
+
 
     <a href="index.html">volver al inicio</a>
 
@@ -25,7 +25,8 @@
         }
 
         .subtitulo {
-            background-color: rgb(7, 214, 34);
+            background-color: rgb(113, 7, 193);
+            color: white;
             width: 500px;
             text-align: center;
             border-radius: 10px;
@@ -36,40 +37,50 @@
         }
 
         .fondo {
-            background-image: url(fondo.jpg);
+            background-image: url(rog.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
 
         }
 
         .nombre {
-            background-color: rgb(134, 216, 248);
-            
+            background-color: rgb(113, 7, 193);
+            color: white;
+            border-radius: 20%;
+
+
 
         }
 
         .apellido {
-            background-color: rgb(134, 216, 248);
+            background-color: rgb(113, 7, 193);
+            color: white;
+            border-radius: 20%;
         }
 
         .masculino {
             background-color: rgb(134, 216, 248);
+            color: white;
         }
     </style>
 
 </head>
 
 <body class="fondo">
-    <h2 class="titulo" style="border:10px solid rgb(7, 10, 197)">REGISTRO DE USUARIO</h2>
-    <h4 class="subtitulo">formulario</h4>s
+    <h2 class="titulo" style="border:10px solid rgb(206, 7, 7)">REGISTRO DE USUARIO</h2>
+    <h4 class="subtitulo">FORMULARIO</h4>s
     <br><br>
     <form action="recibido (1).html">
-        <label for="nombre">Nombre</label>
-        <input id="nombre" class="nombre" type="text" name="Nombre" >
-        <label for="apellido">Apellido</label>
+        <label for="nombre" class="nombre">Nombre</label>
+        <input id="nombre" class="nombre" type="text" name="Nombre">
+        <label for="apellido" class="apellido">Apellido</label>
         <input id="apellido" class="apellido" type="text" name="Apellido">
         <hr>
         <p>sexo</p>
         <input id="masculino" class="Masculino" name="sexo" type="radio">
-        <label for="masculino">Masculino</label>
+        <label for="masculino" class="masculno">Masculino</label>
         <input id="femenino" name="sexo" type="radio">
         <label for="femenino">Femenino</label>
         <hr>
